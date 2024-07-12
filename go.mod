@@ -1,4 +1,4 @@
-module github.com/ricardojrgrb/go_import_to_db
+module goimporttodb
 
 go 1.22.5
 
