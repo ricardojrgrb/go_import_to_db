@@ -1,4 +1,4 @@
-# go_import_to_db
+# Importação de um arquivo TXT para o PostgreSQL
 
 Passos para rodar o projeto:
 
@@ -11,6 +11,9 @@ Passos para rodar o projeto:
 Obs.: Após a realização dos passos indicados, acesse o container go_app, e na aba Logs deverá ser apresentado o log abaixo:
 
 Database created!
+
 Table created!
+
 File processing started!
+
 Finished file processing!
