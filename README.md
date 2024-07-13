@@ -2,6 +2,7 @@
 
 Requisitos:
 - Docker: https://docs.docker.com/get-docker/
+- Github: https://git-scm.com/downloads
 
 Passos para rodar o projeto(executar no terminal):
 
