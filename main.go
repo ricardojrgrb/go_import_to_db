@@ -36,9 +36,9 @@ func main() {
 		if err != nil {
 			break
 		} else {
-			//	Map to index the values ​​of each line of the file, and insert them into the customers table
+			// Map to index the values ​​of each line of the file, and insert them into the customers table
 			map_colums_clients_table := make(map[int]string)
-			// index to populate map table
+			// Index to populate map table
 			index_columns_clients := 0
 
 			line_split := strings.SplitN(line, " ", -1)
@@ -55,6 +55,7 @@ func main() {
 			map_colums_clients_table_normalized = normalization.NormalizationLine(map_colums_clients_table)
 			// If not a invalid line, persists in the database
 			if len(map_colums_clients_table_normalized) != 0 {
+				// Persist data of line on DB
 				postgres.InsertIntoPostgres(db, map_colums_clients_table_normalized)
 			}
 		}
