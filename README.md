@@ -1,4 +1,4 @@
-# Importação de um arquivo TXT para o PostgreSQL
+# Importação de um arquivo TXT para o PostgreSQL em Golang
 
 Passos para rodar o projeto:
 
