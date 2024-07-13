@@ -5,11 +5,15 @@ Requisitos:
 
 Passos para rodar o projeto(executar no terminal):
 
-1 Passo: docker compose up -d go_db
+1 Passo: realize o clone deste projeto;
 
-2 Passo: docker compose build
+2 Passo: acesse o diretório go_import_to_db;
 
-3 Passo: docker compose up go-app
+3 Passo: docker compose up -d go_db;
+
+4 Passo: docker compose build;
+
+5 Passo: docker compose up go-app;
 
 Obs01.: Após a realização dos passos indicados, acesse o container go_app, e na aba Logs deverá ser apresentado o log abaixo:
 
