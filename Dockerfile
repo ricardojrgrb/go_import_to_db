@@ -11,10 +11,10 @@ COPY . .
 RUN go get -d -v ./...
 
 # Build the Go app
-RUN go build -o api .
+RUN go build -o app .
 
 #EXPOSE the port
 EXPOSE 8000
 
 # Run the executable
-CMD ["./api"]
+CMD ["./app"]
