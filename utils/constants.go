@@ -10,5 +10,8 @@ const COLUMN_TICKET_ULTIMA_COMPRA = 5
 const COLUMN_LOJA_MAIS_FREQUENTE = 6
 const COLUMN_LOJA_ULTIMA_COMPRA = 7
 
+// Exact number of columns that must not be empty for data to be persisted in the database
+const NUMBER_OF_COLUMNS = 8
+
 // Path of file
 const PATH_OF_FILE_TO_SPLIT_LINES = "base_to_import/base_teste.txt"

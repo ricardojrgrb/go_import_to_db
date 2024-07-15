@@ -54,7 +54,7 @@ func main() {
 			map_colums_clients_table_normalized := make(map[int]string)
 			map_colums_clients_table_normalized = normalization.NormalizationLine(map_colums_clients_table)
 			// If not a invalid line, persists in the database
-			if len(map_colums_clients_table_normalized) != 0 {
+			if len(map_colums_clients_table_normalized) == constants.NUMBER_OF_COLUMNS {
 				// Persist data of line on DB
 				postgres.InsertIntoPostgres(db, map_colums_clients_table_normalized)
 			}
